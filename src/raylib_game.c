@@ -15,6 +15,7 @@
 #include "raylib.h"
 #include "screens.h"
 #include "unistd.h"
+#include "timers/timers.h">
 // NOTE: Declares global (extern) variables and screens functions
 
 #if defined(PLATFORM_WEB)
@@ -29,17 +30,14 @@ GameScreen currentScreen = LOGO;
 Font font = { 0 };
 Music music = { 0 };
 Sound fxCoin = { 0 };
-//char cwd = [1024];
-//getcwd(cwd, 1024);
+Timer gameClock;
+double howLongIsThisStupidGameRunning;
 
 //----------------------------------------------------------------------------------
 // Local Variables Definition (local to this module)
 //----------------------------------------------------------------------------------
-//int screenWidth = 800;
-//int screenHeight = 450;
 
-//int virtualScreenWidth = GetScreenWidth();
-//int virtualScreenHeight = GetScreenHeight();
+
 
 // Required variables to manage screen transitions (fade-in, fade-out)
 static float transAlpha = 0.0f;
@@ -72,7 +70,8 @@ int main(void)
     InitWindow(screenWidth, screenHeight, "Unidentified Rhythm Game");
     int virtualScreenWidth = GetScreenWidth();
     int virtualScreenHeight = GetScreenHeight();
-    InitAudioDevice();      // Initialize audio device
+    InitAudioDevice(); // Initialize audio device
+    StartTimer(gameClock, howLongIsThisStupidGameRunning);
 
     // Load global data (asse:ts that must be available in all screens, i.e. font)
     font = LoadFont("resources/mecha.png");

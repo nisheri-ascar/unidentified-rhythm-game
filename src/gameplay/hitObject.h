@@ -26,6 +26,6 @@ void DrawHitObject(int beatCount, float timeStamp, int beatType);
 
 void MoveHitObject(int beatCount, float beatSpeed);
 
-void FreeHitObject(int beatCount);
+void ClearHitObject(int beatCount);
 
 //#endif

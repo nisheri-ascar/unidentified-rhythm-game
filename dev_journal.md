@@ -82,3 +82,10 @@ April 19 2025
 i feel an intense embarassment to myself. LIKE HOLY CRAP ALL ALONG WHTA I NEEDED WAS `DrawRectangleLines()` all along in my gameplayLineStartpoint, its so fucking stupid and i want to kms holy shit agrhhhhhh.
 
 so my end goal is to rewrite all gameplayLineStartpoint with something much more sane. 
+
+7:25 pm 
+
+i have done rewriting the bullshit i made, it functions more better compared to whatevert the fuck was that, anyways i have also uploaded this to repo online via github.
+
+TODO:
+* initial implementation for timing system

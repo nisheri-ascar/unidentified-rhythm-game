@@ -56,7 +56,9 @@ void DrawHitObject(int beatCount, float timeStamp, int beatType){
   if(!hitObjectCleared[beatCount]){
     DrawRectangle(hitBarLineHorizontal[beatCount], hitBarLineVertical[beatCount], 10, 60, colorString);
     DrawRectangleLines(hitBarLineHorizontal[beatCount], hitBarLineVertical[beatCount], 10, 60, RED);
+  }
 }
+
 
 void MoveHitObject(int beatCount, float beatSpeed){
   if(!hitObjectCleared[beatCount]){
@@ -66,7 +68,7 @@ void MoveHitObject(int beatCount, float beatSpeed){
 
 // logic: Once the barline is clicked OR the barline reaches y = -10 (offscreen width), destroy the existence of that barline and free the memory
 void ClearHitObject(int beatCount){
-  if(hitBarLineHorizontal[beatCount] =< offScreenLeft){
+  if(hitBarLineHorizontal[beatCount] <= offScreenLeft){
     hitObjectCleared[beatCount] = true;
   } 
 }
