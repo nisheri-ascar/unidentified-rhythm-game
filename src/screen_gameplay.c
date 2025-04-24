@@ -87,7 +87,6 @@ void UpdateGameplayScreen(void){
       MoveHitObject(1, 1.5);
       MoveHitObject(2, 2.3);
       MoveHitObject(3, 1.9);
-      ClearHitObject(1);
     }
     sprintf(onScreenIssueDiagnosement,
     "Mouse X pos: %d\n"

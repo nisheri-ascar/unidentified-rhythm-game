@@ -89,3 +89,9 @@ i have done rewriting the bullshit i made, it functions more better compared to 
 
 TODO:
 * initial implementation for timing system
+
+April 20 2025
+
+11:17 AM    
+
+i am mentally cooked, i havent slept properly, i havent jogged this week, and issues starts to arise, i need to rest goddamn.
