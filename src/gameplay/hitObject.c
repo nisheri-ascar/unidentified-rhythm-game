@@ -24,7 +24,7 @@ Color colorString;
 
 void InitHitObjectArray(){
   int offScreenLeft = -10;
-  int offScreenRight = GetScreenWidth() + 10; 
+  int offScreenRight = GetScreenWidth() + 10;
   for(int i = 0; i < 1024; i++){
       hitObjectCleared[i] = false;
       hitBarLineHorizontal[i] = offScreenRight;
@@ -62,7 +62,7 @@ void DrawHitObject(int beatCount, float timeStamp, int beatType){
 
 void MoveHitObject(int beatCount, float beatSpeed){
   if(!hitObjectCleared[beatCount]){
-    hitBarLineHorizontal[beatCount] -= beatSpeed; 
+    hitBarLineHorizontal[beatCount] -= beatSpeed;
     }
 }
 
@@ -70,5 +70,5 @@ void MoveHitObject(int beatCount, float beatSpeed){
 void ClearHitObject(int beatCount){
   if(hitBarLineHorizontal[beatCount] <= offScreenLeft){
     hitObjectCleared[beatCount] = true;
-  } 
+  }
 }

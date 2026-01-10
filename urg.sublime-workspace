@@ -1,0 +1,960 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"AlignCenter"
+			],
+			[
+				"Al",
+				"alignment"
+			],
+			[
+				"Q",
+				"QLabel"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{\n  \"folders\":\n  [\n    {\n      \"path\": \".\"\n    }\n  ],\n  \"build_systems\":\n  [\n    {\n      \"name\": \"Raylib Project\",\n      \"working_dir\": \"${project_path}\",\n      \"shell\": true,\n      \"variants\":\n      [\n      \t{\n      \t\t\"name\": \"Build\",\n      \t\t\"cmd\": [\"cmake --build build\"]\n      \t},\n        {:\n          \"name\": \"Run\",\n          \"cmd\": [\"./build/raylib-game-template/raylib-game-template\"]\n        },\n        {\n          \"name\": \"Setup Dependencies\",\n          \"cmd\": [\"cmake -S . -B build\"]\n        }\n      ]\n    }\n  ]\n}\n\n",
+			"file": "urg.sublime-project",
+			"file_size": 524,
+			"file_write_time": 133933234537850711,
+			"settings":
+			{
+				"buffer_size": 525,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"",
+					null,
+					"AQAAAAAAAAAAAAAAyQEAAAAAAAAuAAAAewoJImZvbGRlcnMiOgoJWwoJCXsKCQkJInBhdGgiOiAic3JjIgoJCX0KCV0KfQ",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "c"
+					},
+					"AQAAAMkBAAAAAAAAygEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQEAAAAAAADJAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMkBAAAAAAAAyQEAAAAAAAABAAAAYw",
+					"AQAAAAAAAAABAAAAygEAAAAAAADKAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"",
+					null,
+					"AQAAAAAAAAAAAAAA8AEAAAAAAADJAQAAewogICJmb2xkZXJzIjoKICBbCiAgICB7CiAgICAgICJwYXRoIjogIi4iCiAgICB9CiAgXSwKICAiYnVpbGRfc3lzdGVtcyI6CiAgWwogICAgewogICAgICAibmFtZSI6ICJCdWlsZCBSYXlsaWIgKENNYWtlKSIsCiAgICAgICJjbWQiOiBbImNtYWtlIiwgIi0tYnVpbGQiLCAiYnVpbGQiXSwKICAgICAgIndvcmtpbmdfZGlyIjogIiR7cHJvamVjdF9wYXRofSIsCiAgICAgICJzaGVsbCI6IHRydWUsCiAgICAgICJ2YXJpYW50cyI6CiAgICAgIFsKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJSdW4iLAogICAgICAgICAgImNtZCI6IFsiLi9idWlsZC9yYXlsaWItZ2FtZS10ZW1wbGF0ZS9yYXlsaWItZ2FtZS10ZW1wbGF0ZSJdLAogICAgICAgICAgIndvcmtpbmdfZGlyIjogIiR7cHJvamVjdF9wYXRofSIsCiAgICAgICAgICAic2hlbGwiOiB0cnVlCiAgICAgICAgfQogICAgICBdCiAgICB9CiAgXQp9Cg",
+					"AQAAAAAAAAABAAAAyQEAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAPUAAAAAAAAA/QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9QAAAAAAAAD1AAAAAAAAAAAAAAAAAFJA"
+				],
+				[
+					21,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAP0AAAAAAAAA/wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/QAAAAAAAAD9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BAAAAP4AAAAAAAAABgEAAAAAAAAAAAAABgEAAAAAAAAOAQAAAAAAAAAAAAD/AAAAAAAAAP8AAAAAAAAABwAAACAgICAgIAn/AAAAAAAAAAcBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/gAAAAAAAAD+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AgAAABABAAAAAAAAEQEAAAAAAAAAAAAA/wAAAAAAAAD/AAAAAAAAAAgAAAAgICAgICAJCQ",
+					"AQAAAAAAAAABAAAAEAEAAAAAAAAQAQAAAAAAAAAAAAAAAFhA"
+				],
+				[
+					28,
+					1,
+					"cut",
+					null,
+					"AQAAALYAAAAAAAAAtgAAAAAAAAAkAAAAImNtZCI6IFsiY21ha2UiLCAiLS1idWlsZCIsICJidWlsZCJd",
+					"AQAAAAAAAAABAAAAtgAAAAAAAADaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "`\t"
+					},
+					"AgAAANsAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADdAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2wAAAAAAAADbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					2,
+					"left_delete",
+					null,
+					"AgAAANwAAAAAAAAA3AAAAAAAAAABAAAACdsAAAAAAAAA2wAAAAAAAAABAAAAYA",
+					"AQAAAAAAAAABAAAA3QAAAAAAAADdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"reindent",
+					null,
+					"AQAAANsAAAAAAAAA4wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2wAAAAAAAADbAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"paste_and_indent",
+					null,
+					"AQAAAOMAAAAAAAAABwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4wAAAAAAAADjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAANoAAAAAAAAA4wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gAAAAAAAADaAAAAAAAAAAAAAAAAAHhA"
+				],
+				[
+					39,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAOMAAAAAAAAA5QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4wAAAAAAAADjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": "name"
+					},
+					"BAAAAOQAAAAAAAAA5QAAAAAAAAAAAAAA5QAAAAAAAADmAAAAAAAAAAAAAADmAAAAAAAAAOcAAAAAAAAAAAAAAOcAAAAAAAAA6AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5AAAAAAAAADkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAOkAAAAAAAAA6gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6QAAAAAAAADpAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOoAAAAAAAAA6wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6gAAAAAAAADqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAOsAAAAAAAAA7QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "Build"
+					},
+					"BQAAAOwAAAAAAAAA7QAAAAAAAAAAAAAA7QAAAAAAAADuAAAAAAAAAAAAAADuAAAAAAAAAO8AAAAAAAAAAAAAAO8AAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAADxAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					6,
+					"left_delete",
+					null,
+					"BgAAALYAAAAAAAAAtgAAAAAAAAABAAAALLUAAAAAAAAAtQAAAAAAAAABAAAAILQAAAAAAAAAtAAAAAAAAAABAAAAILMAAAAAAAAAswAAAAAAAAABAAAAILIAAAAAAAAAsgAAAAAAAAABAAAAILEAAAAAAAAAsQAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAtwAAAAAAAAC3AAAAAAAAAAAAAAAAAGtA"
+				],
+				[
+					49,
+					2,
+					"left_delete",
+					null,
+					"AgAAALAAAAAAAAAAsAAAAAAAAAABAAAAIK8AAAAAAAAArwAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAsQAAAAAAAACxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAOoAAAAAAAAA6wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6gAAAAAAAADqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"insert",
+					{
+						"characters": "="
+					},
+					"AQAAAAIBAAAAAAAAAwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAgEAAAAAAAACAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAIBAAAAAAAAAgEAAAAAAAABAAAAPQ",
+					"AQAAAAAAAAABAAAAAwEAAAAAAAADAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOcBAAAAAAAA5wEAAAAAAAABAAAAUw",
+					"AQAAAAAAAAABAAAA6AEAAAAAAADoAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert",
+					{
+						"characters": "-help"
+					},
+					"BQAAAOcBAAAAAAAA6AEAAAAAAAAAAAAA6AEAAAAAAADpAQAAAAAAAAAAAADpAQAAAAAAAOoBAAAAAAAAAAAAAOoBAAAAAAAA6wEAAAAAAAAAAAAA6wEAAAAAAADsAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wEAAAAAAADnAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"insert",
+					{
+						"characters": "i"
+					},
+					"AQAAAAECAAAAAAAAAgIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAQIAAAAAAAABAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					2,
+					"left_delete",
+					null,
+					"AgAAAAECAAAAAAAAAQIAAAAAAAABAAAAaQACAAAAAAAAAAIAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAAAgIAAAAAAAACAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					4,
+					"left_delete",
+					null,
+					"BAAAAPoBAAAAAAAA+gEAAAAAAAABAAAAIvkBAAAAAAAA+QEAAAAAAAABAAAAIPgBAAAAAAAA+AEAAAAAAAABAAAALPcBAAAAAAAA9wEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAA+wEAAAAAAAD7AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPcBAAAAAAAA+AEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9wEAAAAAAAD3AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					4,
+					"left_delete",
+					null,
+					"BAAAAPQBAAAAAAAA9AEAAAAAAAABAAAAIvMBAAAAAAAA8wEAAAAAAAABAAAAIPIBAAAAAAAA8gEAAAAAAAABAAAALPEBAAAAAAAA8QEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAA9QEAAAAAAAD1AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					82,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPEBAAAAAAAA8gEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8QEAAAAAAADxAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"left_delete",
+					null,
+					"AQAAAO8BAAAAAAAA7wEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAA8AEAAAAAAADwAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					2,
+					"left_delete",
+					null,
+					"AgAAAO0BAAAAAAAA7QEAAAAAAAABAAAALOwBAAAAAAAA7AEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAA7gEAAAAAAADuAQAAAAAAAAAAAAAAAHJA"
+				],
+				[
+					91,
+					4,
+					"left_delete",
+					null,
+					"BAAAAOUBAAAAAAAA5QEAAAAAAAABAAAAIuQBAAAAAAAA5AEAAAAAAAABAAAAIOMBAAAAAAAA4wEAAAAAAAABAAAALOIBAAAAAAAA4gEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAA5gEAAAAAAADmAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					92,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOIBAAAAAAAA4wEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gEAAAAAAADiAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					94,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAPQBAAAAAAAA9QEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9AEAAAAAAAD0AQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					101,
+					4,
+					"left_delete",
+					null,
+					"BAAAAOgBAAAAAAAA6AEAAAAAAAABAAAAcOcBAAAAAAAA5wEAAAAAAAABAAAAbOYBAAAAAAAA5gEAAAAAAAABAAAAZeUBAAAAAAAA5QEAAAAAAAABAAAAaA",
+					"AQAAAAAAAAABAAAA6QEAAAAAAADpAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					102,
+					1,
+					"insert",
+					{
+						"characters": "S"
+					},
+					"AQAAAOUBAAAAAAAA5gEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5QEAAAAAAADlAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					2,
+					"left_delete",
+					null,
+					"AgAAAOUBAAAAAAAA5QEAAAAAAAABAAAAU+QBAAAAAAAA5AEAAAAAAAABAAAALQ",
+					"AQAAAAAAAAABAAAA5gEAAAAAAADmAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "S"
+					},
+					"AQAAAOQBAAAAAAAA5QEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5AEAAAAAAADkAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					2,
+					"left_delete",
+					null,
+					"AgAAAAMBAAAAAAAAAwEAAAAAAAABAAAALAIBAAAAAAAAAgEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAABAEAAAAAAAAEAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					111,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAMBAAAAAAAAAwEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAABAEAAAAAAAAEAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					114,
+					4,
+					"left_delete",
+					null,
+					"BAAAAA0BAAAAAAAADQEAAAAAAAABAAAAIgwBAAAAAAAADAEAAAAAAAABAAAAIAsBAAAAAAAACwEAAAAAAAABAAAALAoBAAAAAAAACgEAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAADgEAAAAAAAAOAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					115,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAoBAAAAAAAACwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgEAAAAAAAAKAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					117,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAP0AAAAAAAAA/gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/QAAAAAAAAD9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					118,
+					2,
+					"left_delete",
+					null,
+					"AgAAAP0AAAAAAAAA/QAAAAAAAAABAAAAIPwAAAAAAAAA/AAAAAAAAAABAAAAIg",
+					"AQAAAAAAAAABAAAA/gAAAAAAAAD+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					119,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPwAAAAAAAAA/QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/AAAAAAAAAD8AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					120,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPwAAAAAAAAA/AAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA/QAAAAAAAAD9AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					121,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAPwAAAAAAAAA/QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/AAAAAAAAAD8AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					124,
+					1,
+					"insert",
+					{
+						"characters": ":q"
+					},
+					"AgAAAOsAAAAAAAAA7AAAAAAAAAAAAAAA7AAAAAAAAADtAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					126,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QAAAAAAAADtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					132,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAACkBAAAAAAAAKgEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKQEAAAAAAAApAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					139,
+					2,
+					"left_delete",
+					null,
+					"AgAAAOwAAAAAAAAA7AAAAAAAAAABAAAAcesAAAAAAAAA6wAAAAAAAAABAAAAOg",
+					"AQAAAAAAAAABAAAA7QAAAAAAAADtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					140,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOoAAAAAAAAA6gAAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					141,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAOoAAAAAAAAA6wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6gAAAAAAAADqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					142,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOoAAAAAAAAA6gAAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					144,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOoAAAAAAAAA6gAAAAAAAAABAAAAOg",
+					"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					145,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAOoAAAAAAAAA6wAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6gAAAAAAAADqAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/screen_gameplay.c",
+			"settings":
+			{
+				"buffer_size": 4935,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Raylib Project",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Build Raylib (CMake)",
+					""
+				],
+				[
+					"Build Raylib (CMake)",
+					"Run"
+				]
+			],
+			[
+				"Build Raylib (CMake)",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Raylib Project",
+					""
+				],
+				[
+					"Raylib Project",
+					"Build"
+				],
+				[
+					"Raylib Project",
+					"Run"
+				],
+				[
+					"Raylib Project",
+					"Setup Dependencies"
+				]
+			],
+			[
+				"Raylib Project",
+				"Build"
+			]
+		],
+		[
+			[
+				[
+					"Raylib Project",
+					""
+				],
+				[
+					"Raylib Project",
+					"Run"
+				],
+				[
+					"Raylib Project",
+					"Setup Dependencies"
+				]
+			],
+			[
+				"Raylib Project",
+				"Setup Dependencies"
+			]
+		]
+	],
+	"build_varint": "Build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"eho e",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/nisherii/projects/unidentified-rhythm-game"
+	],
+	"file_history":
+	[
+		"/home/nisherii/projects/unidentified-rhythm-game/src/clock/clock.c",
+		"/home/nisherii/projects/unidentified-rhythm-game/unidentified-rhythm-game.sublime-build",
+		"/home/nisherii/projects/unidentified-rhythm-game/src/raylib_game.c",
+		"/home/nisherii/projects/unidentified-rhythm-game/src/screen_gameplay.c",
+		"/home/nisherii/projects/unidentified-rhythm-game/unidentified-rhythm-game.sublime-project",
+		"/home/nisherii/Documents/Naka S Ka Bro/traceback.txt",
+		"/home/nisherii/Documents/Naka S Ka Bro/game/gui.rpy",
+		"/home/nisherii/Documents/Naka S Ka Bro/game/gui.rpyc",
+		"/home/nisherii/projects/learning_qt/qt.py",
+		"/home/nisherii/projects/pyPSBextractor/pyPSBextractor.py",
+		"/home/nisherii/projects/nekolauncher1/nekodroid/game/gui.rpy",
+		"/home/nisherii/projects/nekolauncher1/nekodroid/game/screens.rpy",
+		"/home/nisherii/Obsidian/Project Docs/nekopara/short bullet journal.md",
+		"/home/nisherii/Obsidian/Project Docs/nekopara/TODO.md",
+		"/home/nisherii/projects/nekolauncher1/nekodroid/game/script.rpy",
+		"/home/nisherii/Obsidian/Project Docs/nekopara/PSB_file.md",
+		"/home/nisherii/MEGA downloads/Nekopara Vol 1/extracted/scn/01_01.ks.json",
+		"/home/nisherii/projects/nekolauncher1/nekolauncher_1/game/script.rpy",
+		"/home/nisherii/projects/krkr-xp3/structs/encryption_parameters.py",
+		"/home/nisherii/projects/krkr-xp3/xp3.py",
+		"/home/nisherii/projects/krkr-xp3/xp3writer.py",
+		"/home/nisherii/projects/pyPSBextractor/logger.py",
+		"/home/nisherii/projects/FreeMote/FreeMote/PsbFile.cs",
+		"/home/nisherii/projects/krkr-xp3/xp3reader.py",
+		"/home/nisherii/projects/FreeMote/FreeMote/Psb.cs",
+		"/home/nisherii/projects/krkr-xp3/structs/file.py",
+		"/home/nisherii/projects/nekolauncher1/nekodroid/game/options.rpy",
+		"/home/nisherii/projects/krkr-xp3/structs/__init__.py",
+		"/home/nisherii/projects/krkr-xp3/structs/file_entry.py",
+		"/home/nisherii/projects/krkr-xp3/structs/constants.py",
+		"/home/nisherii/projects/krkr-xp3/structs/file_index.py",
+		"/home/nisherii/projects/nekolauncher1/nekolauncher_1/game/gui.rpy",
+		"/home/nisherii/projects/nekolauncher1/nekolauncher_1/game/screens.rpy",
+		"/home/nisherii/projects/nekolauncher1/nekolauncher_1/game/options.rpy",
+		"/home/nisherii/Downloads/renpy/renpy-8.2.1-sdk/tmp/nekolauncher_1/android.txt",
+		"/home/nisherii/projects/nekolauncher1/nekolauncher_1/traceback.txt",
+		"/home/nisherii/Downloads/renpy/renpy-8.2.1-sdk/tmp/nekolauncher_1/lint.txt",
+		"/home/nisherii/Downloads/renpy/renpy-8.2.1-sdk/renpy/common/_layout/screen_main_menu.rpym"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "urg.sublime-project",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/screen_gameplay.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 933.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "urg.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/krkr-xp3/xp3reader.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 116.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

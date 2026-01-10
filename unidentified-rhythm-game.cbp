@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="unidentified-rhythm-game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/unidentified-rhythm-game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/unidentified-rhythm-game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="build/CMakeFiles/3.30.1/CompilerIdC/CMakeCCompilerId.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-build/raylib/include/raylib.h" />
+		<Unit filename="build/_deps/raylib-build/raylib/include/raymath.h" />
+		<Unit filename="build/_deps/raylib-build/raylib/include/rlgl.h" />
+		<Unit filename="build/_deps/raylib-src/examples/audio/audio_mixed_processor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/audio/audio_module_playing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/audio/audio_music_stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/audio/audio_raw_stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/audio/audio_sound_loading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/audio/audio_sound_multi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/audio/audio_stream_effects.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_2d_camera.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_2d_camera_mouse_zoom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_2d_camera_platformer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_2d_camera_split_screen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_3d_camera_first_person.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_3d_camera_free.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_3d_camera_mode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_3d_camera_split_screen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_3d_picking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_automation_events.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_basic_screen_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_basic_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_basic_window_web.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_custom_frame_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_custom_logging.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_drop_files.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_gamepad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_gamepad_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_gestures.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_gestures_web.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_keys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_mouse_wheel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_input_multitouch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_loading_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_random_values.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_scissor_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_smooth_pixelperfect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_storage_values.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_vr_simulator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_window_flags.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_window_letterbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_window_should_close.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/core/core_world_screen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/examples_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_billboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_box_collisions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_cubicmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_draw_cube_texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_first_person_maze.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_geometric_shapes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_heightmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_loading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_loading_gltf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_loading_m3d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_loading_vox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_mesh_generation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_mesh_picking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_orthographic_projection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_rlgl_solar_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_skybox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_waving_cubes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/models/models_yaw_pitch_roll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/others/easings_testbed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/others/embedded_files_loading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/others/external/include/GLFW/glfw3.h" />
+		<Unit filename="build/_deps/raylib-src/examples/others/external/include/GLFW/glfw3native.h" />
+		<Unit filename="build/_deps/raylib-src/examples/others/external/include/glad.h" />
+		<Unit filename="build/_deps/raylib-src/examples/others/external/include/glad_gles2.h" />
+		<Unit filename="build/_deps/raylib-src/examples/others/raylib_opengl_interop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/others/raymath_vector_angle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/others/reasings.h" />
+		<Unit filename="build/_deps/raylib-src/examples/others/resources/audio_data.h" />
+		<Unit filename="build/_deps/raylib-src/examples/others/resources/image_data.h" />
+		<Unit filename="build/_deps/raylib-src/examples/others/rlgl_compute_shader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/others/rlgl_standalone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/rlights.h" />
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_basic_lighting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_custom_uniform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_deferred_render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_eratosthenes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_fog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_hot_reloading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_hybrid_render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_julia_set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_lightmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_mesh_instancing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_model_shader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_multi_sample2d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_palette_switch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_postprocessing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_raymarching.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_shapes_textures.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_simple_mask.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_spotlight.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_texture_drawing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_texture_outline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_texture_tiling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_texture_waves.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shaders/shaders_write_depth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/raygui.h" />
+		<Unit filename="build/_deps/raylib-src/examples/shapes/reasings.h" />
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_basic_shapes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_bouncing_ball.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_collision_area.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_colors_palette.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_draw_circle_sector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_draw_rectangle_rounded.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_draw_ring.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_easings_ball_anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_easings_box_anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_easings_rectangle_array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_following_eyes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_lines_bezier.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_logo_raylib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_logo_raylib_anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_rectangle_scaling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_splines_drawing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/shapes/shapes_top_down_lights.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_codepoints_loading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_draw_3d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_font_filters.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_font_loading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_font_sdf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_font_spritefont.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_format_text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_input_box.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_raylib_fonts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_rectangle_bounds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_unicode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/text/text_writing_anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_background_scrolling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_blend_modes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_bunnymark.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_draw_tiled.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_fog_of_war.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_gif_player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_image_drawing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_image_generation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_image_loading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_image_processing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_image_rotate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_image_text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_logo_raylib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_mouse_painting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_npatch_drawing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_particles_blending.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_polygon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_raw_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_sprite_anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_sprite_button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_sprite_explosion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_srcrec_dstrec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_svg_loading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_textured_curve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/examples/textures/textures_to_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/parser/raylib_parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/4coder/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/CMake/core_basic_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/CodeBlocks/core_basic_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/Geany/core_basic_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/Notepad++/raylib_npp_parser/raylib_npp_parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/Notepad++/raylib_npp_parser/raylib_to_parse.h" />
+		<Unit filename="build/_deps/raylib-src/projects/VS2019-Android/raylib_android/raylib_android.NativeActivity/android_native_app_glue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/VS2019-Android/raylib_android/raylib_android.NativeActivity/android_native_app_glue.h" />
+		<Unit filename="build/_deps/raylib-src/projects/VS2019-Android/raylib_android/raylib_android.NativeActivity/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/VSCode/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/projects/scripts/core_basic_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/config.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/cgltf.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/dirent.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/dr_flac.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/dr_mp3.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/dr_wav.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glad.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glad_gles2.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/getopt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/getopt.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/glad/gl.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/glad/gles2.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/glad/vulkan.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/mingw/_mingw_dxhelper.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/mingw/dinput.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/mingw/xinput.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/deps/vs2008/stdint.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/cocoa_joystick.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/cocoa_platform.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/cocoa_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/cocoa_time.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/egl_context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/glx_context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/internal.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/linux_joystick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/linux_joystick.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/mappings.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/null_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/null_joystick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/null_joystick.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/null_monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/null_platform.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/null_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/platform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/platform.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/posix_module.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/posix_poll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/posix_poll.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/posix_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/posix_thread.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/posix_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/posix_time.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/vulkan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/wgl_context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_joystick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_joystick.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_module.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_platform.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_thread.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_time.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/win32_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/wl_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/wl_monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/wl_platform.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/wl_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/x11_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/x11_monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/x11_platform.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/x11_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/xkb_unicode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/glfw/src/xkb_unicode.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/jar_mod.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/jar_xm.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/m3d.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/miniaudio.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/msf_gif.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/nanosvg.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/nanosvgrast.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/par_shapes.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/qoa.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/qoaplay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/qoi.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/rl_gputex.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/rprand.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/sdefl.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/sinfl.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/stb_image.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/stb_image_resize2.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/stb_image_write.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/stb_perlin.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/stb_rect_pack.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/stb_truetype.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/stb_vorbis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/external/tinyobj_loader_c.h" />
+		<Unit filename="build/_deps/raylib-src/src/external/vox_loader.h" />
+		<Unit filename="build/_deps/raylib-src/src/platforms/rcore_android.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/platforms/rcore_desktop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/platforms/rcore_desktop_sdl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/platforms/rcore_drm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/platforms/rcore_template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/platforms/rcore_web.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/raudio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/raylib.h" />
+		<Unit filename="build/_deps/raylib-src/src/raymath.h" />
+		<Unit filename="build/_deps/raylib-src/src/rcamera.h" />
+		<Unit filename="build/_deps/raylib-src/src/rcore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/rgestures.h" />
+		<Unit filename="build/_deps/raylib-src/src/rglfw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/rlgl.h" />
+		<Unit filename="build/_deps/raylib-src/src/rmodels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/rshapes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/rtext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/rtextures.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build/_deps/raylib-src/src/utils.h" />
+		<Unit filename="src/clock/clock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/clock/clock.h" />
+		<Unit filename="src/gameplay/beatmapParser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/gameplay/hitObject.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/gameplay/hitObject.h" />
+		<Unit filename="src/gameplay/hitObjectPositionHandler.h" />
+		<Unit filename="src/raylib_game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/screen_ending.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/screen_gameplay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/screen_logo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/screen_options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/screen_title.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/screens.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

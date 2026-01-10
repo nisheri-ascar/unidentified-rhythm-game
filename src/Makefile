@@ -38,7 +38,8 @@ PROJECT_SOURCE_FILES  ?= \
     screen_title.c \
     screen_options.c \
     screen_gameplay.c \
-    screen_ending.c
+    screen_ending.c \
+    gameplay/hitObject.c
 
 # raylib library variables
 RAYLIB_SRC_PATH       ?= ../../raylib/src
@@ -141,16 +142,16 @@ endif
 
 # Define default C compiler: CC
 #------------------------------------------------------------------------------------------------
-CC = clang
+CC = clang-21
 
 ifeq ($(PLATFORM),PLATFORM_DESKTOP)
     ifeq ($(PLATFORM_OS),OSX)
         # OSX default compiler
-        CC = clang
+        CC = clang++-21
     endif
     ifeq ($(PLATFORM_OS),BSD)
         # FreeBSD, OpenBSD, NetBSD, DragonFly default compiler
-        CC = clang
+        CC = clang++21
     endif
 endif
 ifeq ($(PLATFORM),PLATFORM_WEB)

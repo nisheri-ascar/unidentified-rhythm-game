@@ -1,6 +1,6 @@
 //#ifndef HITOBJECT_H
 //#define HITOBJECT_H
-#include "raylib.h"
+//#include "raylib.h"
 
 extern int beatCount;
 extern float timeStamp;

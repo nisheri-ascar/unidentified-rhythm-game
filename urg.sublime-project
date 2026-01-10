@@ -1,0 +1,32 @@
+{
+  "folders":
+  [
+    {
+      "path": "."
+    }
+  ],
+  "build_systems":
+  [
+    {
+      "name": "Raylib Project",
+      "working_dir": "${project_path}",
+      "shell": true,
+      "variants":
+      [
+      	{
+      		"name": "Build",
+      		"cmd": ["cmake --build build"]
+      	},
+        {
+          "name": "Run",
+          "cmd": ["./build/raylib-game-template/raylib-game-template"]
+        },
+        {
+          "name": "Setup Dependencies",
+          "cmd": ["cmake -S . -B build"]
+        }
+      ]
+    }
+  ]
+}
+

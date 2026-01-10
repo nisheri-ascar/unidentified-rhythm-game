@@ -40,13 +40,13 @@ static int finishScreen = 0;
 // A REALLY BIG WARNING!
 //
 // all this position variables are a technical debt in future.
-// this will most likely be a pain in the ass to figure out positions and 
+// this will most likely be a pain in the ass to figure out positions and
 // making objects relative to screen size.
 //
-// currently, right now, everything is hardcoded to fixed resolution 
+// currently, right now, everything is hardcoded to fixed resolution
 // 800 x 450
 // to me, future programmer, i'm so sorry, but i'm still learning
-// i'm praying the best of you to make all objects relative to 
+// i'm praying the best of you to make all objects relative to
 // resizable screen size.
 //
 // karl, 2025-04-15 2:56 PM
@@ -67,17 +67,17 @@ void InitGameplayScreen(void){
     // TODO: Initialize GAMEPLAY screen variables here!
     framesCounter = 0;
     finishScreen = 0;
-    testBeatCount = 0; 
-    InitHitObjectArray(); 
+    testBeatCount = 0;
+    InitHitObjectArray();
 
     playfieldLineStartpoint.x = 0;
     playfieldLineEndpoint.x = 0;
 
     playfieldLineStartpoint.y = GetScreenHeight() / 2;
-    playfieldLineEndpoint.y = GetScreenHeight() / 2; 
+    playfieldLineEndpoint.y = GetScreenHeight() / 2;
 
     playfieldRenderDone = false;
-} 
+}
 
 // Gameplay Screen Update logic
 void UpdateGameplayScreen(void){

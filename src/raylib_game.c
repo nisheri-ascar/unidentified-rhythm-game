@@ -15,7 +15,7 @@
 #include "raylib.h"
 #include "screens.h"
 #include "unistd.h"
-#include "timers/timers.h">
+//#include "timers/timers.h"
 // NOTE: Declares global (extern) variables and screens functions
 
 #if defined(PLATFORM_WEB)
@@ -30,7 +30,7 @@ GameScreen currentScreen = LOGO;
 Font font = { 0 };
 Music music = { 0 };
 Sound fxCoin = { 0 };
-Timer gameClock;
+//Timer gameClock;
 double howLongIsThisStupidGameRunning;
 
 //----------------------------------------------------------------------------------
@@ -71,7 +71,7 @@ int main(void)
     int virtualScreenWidth = GetScreenWidth();
     int virtualScreenHeight = GetScreenHeight();
     InitAudioDevice(); // Initialize audio device
-    StartTimer(gameClock, howLongIsThisStupidGameRunning);
+    //StartTimer(gameClock, howLongIsThisStupidGameRunning);
 
     // Load global data (asse:ts that must be available in all screens, i.e. font)
     font = LoadFont("resources/mecha.png");
