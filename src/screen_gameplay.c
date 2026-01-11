@@ -53,10 +53,11 @@ static int finishScreen = 0;
 
 Vector2 playfieldLineStartpoint;
 Vector2 playfieldLineEndpoint;
-char onScreenIssueDiagnosement[256];
+char onScreenIssueDiagnosement[512];
 bool playfieldRenderDone;
 int beatCount;
 int testBeatCount;
+int lastCharPressed = 1;
 
 //----------------------------------------------------------------------------------
 // Gameplay Screen Functions Definition
@@ -96,17 +97,22 @@ void UpdateGameplayScreen(void){
     "LineBar.x: %d\n"
     "LineBar.y %d\n"
     "beatCount: %d\n"
-    , GetMouseX(), GetMouseY(), GetScreenHeight(), GetScreenWidth(), hitBarLineHorizontal[testBeatCount], hitBarLineVertical[testBeatCount], beatCount);
-
+    "Last Key pressed: %d\n"
+    , GetMouseX(), GetMouseY(), GetScreenHeight(), GetScreenWidth(), hitBarLineHorizontal[testBeatCount], hitBarLineVertical[testBeatCount], beatCount, lastCharPressed);
+    printf("%s\n ",GetCharPressed());
+    if(GetCharPressed() != 0){
+        lastCharPressed = GetCharPressed();
+    }
     // Press enter or tap to change to ENDING screen
     if (IsKeyPressed(KEY_ENTER) || IsGestureDetected(GESTURE_TAP))
     {
         finishScreen = 1;
         PlaySound(fxCoin);
     }
+    //
 }
 
-// Gameplay Screen Draw logic
+// Gameplay Screen Draw logics
 void DrawGameplayScreen(void)
 {
     // TODO: Draw GAMEPLAY screen here!

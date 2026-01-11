@@ -19,7 +19,14 @@ int hitBarLineHorizontal[1024];
 int hitBarLineVertical[1024];
 int beatColor;
 bool hitObjectCleared[1024];
-Color colorString;
+
+
+static const Color beatColorDictionary[] = {
+    { 230, 41, 55, 255 }, //"RED"
+    { 190, 33, 55, 255 }, //MAROON
+    { 0, 121, 241, 255 }, //BLUE
+    { 0, 228, 48, 255 }, //GREEN
+};
 
 
 void InitHitObjectArray(){
@@ -36,25 +43,22 @@ void InitHitObjectArray(){
 void PrepareHitObject(int beatCount){
   //gameplayBarLineStartpoint[beatCount].x = offScreenRight;
   //gameplayBarLineEndpoint[beatCount].x = offScreenRight;
-  // Technically we fdont need this? but at the same time how can we create multiple hitobejects? this might be needed in future once dynamic array AND notes are dynamic matching to screen size is made.
+  // Technically we fdont need this? but at the same time how can we create multiple hitobjects? this might be needed in future once dynamic array AND notes are dynamic matching to screen size is made.
 }
 
 void DrawHitObject(int beatCount, float timeStamp, int beatType){
   // we using pseudo beatType names for debugging
   // 0 - alpha, 1 - beta, 2 - gamma, 3 - skibidi
   // dont wanna use case cuz im stupid for now
-  Color colorString = { 0, 0, 0, 0};
-  if(beatType == 0){
-    Color colorString = { 230, 41, 55, 255 }; //"RED"
-  } if(beatType == 1){
-    Color colorString = { 190, 33, 55, 255 } ; //MAROON
-  } if(beatType == 2){
-    Color colorString = { 0, 121, 241, 255 }; //BLUE
-  } if(beatType == 3){
-    Color colorString =  { 0, 228, 48, 255 }; //GREEN
+  Color beatColor = { 0, 0, 0, 0 };
+  if(beatType >= 0 && beatType < 4){
+        beatColor = beatColorDictionary[beatType];
+  } else {
+    printf("Invalid beatType!");
   }
+
   if(!hitObjectCleared[beatCount]){
-    DrawRectangle(hitBarLineHorizontal[beatCount], hitBarLineVertical[beatCount], 10, 60, colorString);
+    DrawRectangle(hitBarLineHorizontal[beatCount], hitBarLineVertical[beatCount], 10, 60, beatColor);
     DrawRectangleLines(hitBarLineHorizontal[beatCount], hitBarLineVertical[beatCount], 10, 60, RED);
   }
 }
