@@ -1,4 +1,5 @@
 raylib_game
+*.layout
 
 # Prerequisites
 *.d
